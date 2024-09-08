@@ -1,0 +1,71 @@
+.picture-gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+    /* Background color for the gallery */
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    box-shadow: #0056b3;
+    border-radius: 8px;
+    /* Rounded corners and box shadow for the gallery */
+    transition: box-shadow 0.3s ease;
+    /* Smooth transition for the box shadow */
+    overflow-x: auto;
+    /* Enable horizontal scrolling for the gallery */
+    overflow-y: hidden;
+    /* Disable vertical scrolling for the gallery */
+    /* Hide overflow for scrolling */
+
+
+
+}
+
+.gallery-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    gap: 10px;
+}
+
+.left-image,
+.right-image {
+    width: 200%;
+    height: 200%;
+}
+
+.gallery-image {
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.gallery-image:hover {
+    transform: scale(1.05);
+}
+
+.Roll {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    /* Space above the button */
+}
+
+.Roll:hover {
+    background-color: #0056b3;
+    /* Darker shade for hover effect */
+}
