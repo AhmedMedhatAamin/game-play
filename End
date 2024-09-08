@@ -1,0 +1,11 @@
+[33mcommit 81a9fc324e761b2edf58dc6453b53094c10a0347[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: AhmedMedhatAamin <ahmedmedhat.ahmed011@gmail.com>
+Date:   Sun Sep 8 09:12:18 2024 +0300
+
+    Initial commit
+
+[33mcommit 3e25f1b59e09c2e4226340fededdc2a30515869f[m
+Author: AhmedMedhatAamin <ahmedmedhat.ahmed011@gmail.com>
+Date:   Wed Aug 28 12:47:21 2024 +0300
+
+    Initialize project using Create React App
