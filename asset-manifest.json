@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/game-play/static/css/main.31b215bc.css",
-    "main.js": "/game-play/static/js/main.c3adad03.js",
-    "static/media/_6eb45498-fcc4-40a6-ae16-b5ac2689a8ad.jpeg": "/game-play/static/media/_6eb45498-fcc4-40a6-ae16-b5ac2689a8ad.6410b5b43bbb23341768.jpeg",
-    "static/media/eds001.jpg": "/game-play/static/media/eds001.a83970383d5a5ac8f396.jpg",
-    "static/media/fmr001.jpg": "/game-play/static/media/fmr001.e706a1b79b5ac6c8a2bd.jpg",
-    "static/media/dor001.jpg": "/game-play/static/media/dor001.bd9deb44a88d734d046d.jpg",
-    "static/media/lob021.jpg": "/game-play/static/media/lob021.583737515abf22a4c125.jpg",
-    "static/media/lob070.jpg": "/game-play/static/media/lob070.c12aecac769f7be2f89c.jpg",
-    "static/media/dor003.jpg": "/game-play/static/media/dor003.5a251e652ab3e951e639.jpg",
-    "static/media/lob004.jpg": "/game-play/static/media/lob004.17b53787b6e973b0bd7a.jpg",
-    "static/media/lob013.jpg": "/game-play/static/media/lob013.ae205f81d20c27d3ef20.jpg",
-    "static/media/lob019.jpg": "/game-play/static/media/lob019.63a832d9cfbaa689548d.jpg",
-    "static/media/eds002.jpg": "/game-play/static/media/eds002.3aa02ca8057daf7c88bc.jpg",
-    "index.html": "/game-play/index.html",
-    "main.31b215bc.css.map": "/game-play/static/css/main.31b215bc.css.map",
-    "main.c3adad03.js.map": "/game-play/static/js/main.c3adad03.js.map"
+    "main.css": "/static/css/main.31b215bc.css",
+    "main.js": "/static/js/main.10f6eb67.js",
+    "static/media/_6eb45498-fcc4-40a6-ae16-b5ac2689a8ad.jpeg": "/static/media/_6eb45498-fcc4-40a6-ae16-b5ac2689a8ad.6410b5b43bbb23341768.jpeg",
+    "static/media/eds001.jpg": "/static/media/eds001.a83970383d5a5ac8f396.jpg",
+    "static/media/fmr001.jpg": "/static/media/fmr001.e706a1b79b5ac6c8a2bd.jpg",
+    "static/media/dor001.jpg": "/static/media/dor001.bd9deb44a88d734d046d.jpg",
+    "static/media/lob021.jpg": "/static/media/lob021.583737515abf22a4c125.jpg",
+    "static/media/lob070.jpg": "/static/media/lob070.c12aecac769f7be2f89c.jpg",
+    "static/media/dor003.jpg": "/static/media/dor003.5a251e652ab3e951e639.jpg",
+    "static/media/lob004.jpg": "/static/media/lob004.17b53787b6e973b0bd7a.jpg",
+    "static/media/lob013.jpg": "/static/media/lob013.ae205f81d20c27d3ef20.jpg",
+    "static/media/lob019.jpg": "/static/media/lob019.63a832d9cfbaa689548d.jpg",
+    "static/media/eds002.jpg": "/static/media/eds002.3aa02ca8057daf7c88bc.jpg",
+    "index.html": "/index.html",
+    "main.31b215bc.css.map": "/static/css/main.31b215bc.css.map",
+    "main.10f6eb67.js.map": "/static/js/main.10f6eb67.js.map"
   },
   "entrypoints": [
     "static/css/main.31b215bc.css",
-    "static/js/main.c3adad03.js"
+    "static/js/main.10f6eb67.js"
   ]
 }
