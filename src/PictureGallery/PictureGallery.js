@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import './PictureGallery.css';
 
-// Import your images as before
+// Import your images
 import image1 from './assets/dor001.jpg';
 import image2 from './assets/eds002.jpg';
 import image3 from './assets/lob004.jpg';
@@ -35,13 +35,14 @@ function PictureGallery() {
     const [leftIndex, setLeftIndex] = useState(0);
     const [rightIndex, setRightIndex] = useState(images.length - 1);
 
-    const swapImages = () => {
+    // Use useCallback to memoize swapImages function
+    const swapImages = useCallback(() => {
         const newLeftIndex = (leftIndex + 1) % images.length;
         const newRightIndex = (rightIndex - 1 + images.length) % images.length;
 
         setLeftIndex(newLeftIndex);
         setRightIndex(newRightIndex);
-    };
+    }, [leftIndex, rightIndex]);
 
     useEffect(() => {
         let interval;
@@ -51,7 +52,7 @@ function PictureGallery() {
         return () => {
             clearInterval(interval);
         };
-    }, [imageRoll, leftIndex, rightIndex]);
+    }, [imageRoll, swapImages]); // Added swapImages to dependency array
 
     const handleRoll = () => {
         setImageRoll(!imageRoll);
